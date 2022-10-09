@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                font-size: 10em;
+                margin: auto;
+                width: 900px;
+            }
+
+            .wrapper {
+                display: grid;
+                grid-template-columns: repeat(3, 200px);
+            }
+
+            .red {
+                color: red;
+            }
+
+            .blue {
+                color: blue;
+            }
+
+            .yellow {
+                color: rgb(223, 167, 23);
+            }
+
+            .chessboard {
+                display: grid;
+                grid-template-columns: repeat(3, 200px);
+            }
+
+            .chessboard div {
+                width: 200px;
+                height: 200px;
+            }
+
+            .bg-black {
+                background-color:black;
+            }
+            .bg-yellow {
+                background-color:rgb(252, 222, 51);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- https://www.toptal.com/designers/htmlarrows/symbols/ -->
+        <div class="wrapper">
+            <div class="blue">&#9901;</div>
+            <div class="yellow">&#9883;</div>
+            <div class="red">&#9882;</div>
+            <div>&#9884;</div>
+            <div>&#9876;</div>
+            <div>&#10026;</div>
+        </div>
+        <div class="chessboard">
+            <div class="bg-black"></div>
+            <div class="bg-yellow"></div>
+            <div class="bg-black"></div>
+        </div>
+    </body>
+</html>
+
